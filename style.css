@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.header__logo-name{
+    display: flex;
+    gap: 0.2rem;
+}
+
+.header__logo{
+    width: 2rem;
+    height: 2rem;
+}
+
+.header__name{
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.header__options{
+    display: flex;
+    gap: 2rem;
+    /* align-items: center; */
+    font-size: medium;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.header__options__red{
+    color: #FF5E5F;
+}
+
+.header__button{
+    display:flex;
+    font-size: small;
+    width: 20rem;
+    height: 2rem; 
+    background-color: white;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.header__button__lupa-search{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.header__button__lupa{
+    height: 1rem;
+}
+
+
+
+
